@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+}
+body{
+    background-color: rgb(232, 232, 225);
+}
+.container{
+    max-width: 1000px;
+    background-color: rgb(181, 238, 234);
+    margin:0 auto ;
+    padding: 10px;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/*----------------------
+header section start
+-----------------------*/
+.header{
+    margin: 30px;
+    
+
+}
+.profile{
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid black;
+    float:left;
+}
+.profile-bio{
+    float: left;
+    padding: 20px;
+}
+.header-contact {
+    text-decoration: none;
+    float:right;
+}
+.header-contact a{
+    text-decoration: none;
+}
+.header-contact,a:hover{
+    color: tomato;
+}
+/*----------------------
+header section end
+-----------------------*/
+.contant{
+    margin: bottom 20px;
+}
+h1,h2,h3,h4,h5,p{
+    color:rgb(6, 47, 48) ;
+    line-break: 1px;
+}
+h3{
+    margin-bottom: -10px;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+.div-left{
+    width: 30%;
+    float:left;
+}
+.div-right{
+    width: 70%;
+    float:right;
+    line-break: 3px;
+
+}
+.common-hr{
+    border: 1px solid black;
+    width: 100%;
+    border-bottom: none;
+    margin: 5px auto;
+}
+/*----------------------
+Education section start
+-----------------------*/
+.edu-templaet-left{
+    float: left;
+    width: 45%;
+}
+.edu-templaet-right{
+    float: right;
+    width: 45%;
+}
+/*----------------------
+footer section start
+-----------------------*/
+.bottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+
+
+}
+.bottom a{
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.bottom p{
+    color:white;
+    padding: 20px;
+
+    
+}
